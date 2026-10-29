@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZapFast: start at login with the window open (issue 734)</title>
+<style>
+  body { font: 15px/1.5 system-ui, sans-serif; margin: 0; padding: 24px; background: #141419; color: #eee; }
+  h1 { font-size: 19px; }
+  .cols { display: flex; gap: 16px; flex-wrap: wrap; }
+  figure { margin: 0; flex: 1 1 420px; max-width: 640px; }
+  img { width: 100%; height: auto; border: 1px solid #333; border-radius: 8px; }
+  figcaption { margin-top: 6px; color: #aaa; }
+</style>
+<body>
+<h1>Start at login: choice between tray and window</h1>
+<p>Synthetic demo content. Same search (<q>start</q>) on the Settings page, login item on.</p>
+<div class="cols">
+  <figure>
+    <img src="before.png" alt="Before: one Start at login row, tray only">
+    <figcaption>Before: one switch, always the tray.</figcaption>
+  </figure>
+  <figure>
+    <img src="after.png" alt="After: Start at login plus Start with the window open">
+    <figcaption>After: the switch, and Start with the window open beneath it.</figcaption>
+  </figure>
+</div>
+</body>
+</html>
